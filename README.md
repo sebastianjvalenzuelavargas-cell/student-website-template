@@ -6,6 +6,7 @@ A free, beginner-friendly HTML & CSS template for students.
 - One-page layout
 - Easy to edit
 - No JavaScript required
+- Only HTML and CSS
 
 ## How to use
 1. Download the files
