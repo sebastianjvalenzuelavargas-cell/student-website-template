@@ -9,6 +9,7 @@ A free, beginner-friendly HTML & CSS template for students.
 - Only HTML and CSS
 
 ## How to use
-1. Download the files
+1. Download the zip.file
+2. Extract everything
 2. Open `index.html` in a browser
 3. Edit the text to make it yours
