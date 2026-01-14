@@ -1,15 +1,16 @@
 # Student Personal Website Template
 
-A free, beginner-friendly HTML & CSS template for students.
+A free, beginner-friendly HTML & CSS template for students to create a personal website.
 
 ## Features
 - One-page layout
-- Easy to edit
+- Easy to customize
+- Beginner-friendly
 - No JavaScript required
-- Only HTML and CSS
+- Built with only HTML and CSS
 
 ## How to use
-1. Download the zip.file
-2. Extract everything
-2. Open `index.html` in a browser
-3. Edit the text to make it yours
+1. Click **Code → Download ZIP**
+2. Extract the files
+3. Open `index.html` in a browser
+4. Edit the text to make it your own
