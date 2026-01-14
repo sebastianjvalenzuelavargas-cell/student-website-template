@@ -1,0 +1,125 @@
+/* ACCENT COLOR */
+:root {
+    --accent-color: #849aff;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE SETUP */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f4ff, #e6ecff);
+    color: #222;
+    line-height: 1.6;
+
+    /* IMPORTANT FIX */
+    overflow-x: hidden;
+}
+
+/* MAIN LAYOUT */
+header,
+section,
+footer {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+
+    /* TEXT SAFETY */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* SECTIONS (cards) */
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+
+    /* IMPORTANT FIX */
+    height: auto;
+    overflow: visible;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* SECTION TITLES */
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+}
+
+/* CONTENT BLOCKS */
+section div {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+
+    /* IMPORTANT FIX */
+    height: auto;
+    overflow: visible;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* SUBHEADINGS */
+section h3 {
+    margin-bottom: 8px;
+}
+
+/* PARAGRAPHS */
+p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
